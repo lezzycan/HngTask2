@@ -86,6 +86,11 @@ class _HomePageState extends State<HomePage> {
             fontWeight: FontWeight.w600,
           ),
           const AppText(
+            name: 'Lezzycan',
+            align: TextAlign.center,
+            fontWeight: FontWeight.w600,
+          ),
+          const AppText(
               name: 'Mobile Developer (Flutter/Dart)',
               align: TextAlign.center,
               fontWeight: FontWeight.w400),
@@ -201,7 +206,7 @@ class AppText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      name ?? 'Waheed Olalekan',
+      name ?? 'Waheed Olalekan Toheeb',
       textAlign: align,
       style: AppConstants.getStyle(15, color ?? Colors.black)
           .copyWith(fontWeight: fontWeight),
